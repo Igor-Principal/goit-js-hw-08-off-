@@ -32,7 +32,7 @@ function onSubmit(evt) {
     message,
   };
   console.log(info);
-  evt.target.reset();
+form.reset();
   localStorage.removeItem('email');
   localStorage.removeItem('message');
 }
