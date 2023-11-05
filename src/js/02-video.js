@@ -2,6 +2,7 @@ import Player from '@vimeo/player';
 import throttle from 'lodash.throttle';
 import { getFromLS, saveTolS } from './helpers';
 
+
 const iframe = document.querySelector('iframe');
 const player = new Player(iframe);
 
